@@ -12,7 +12,7 @@ const StudentSchema = new moongose.Schema({
   },
 });
 
-const Student = moongose.model("Student", StudentSchema);
+const Student = moongose.model("Studentss", StudentSchema);
 
 // Ekspor
 module.exports = Student;
